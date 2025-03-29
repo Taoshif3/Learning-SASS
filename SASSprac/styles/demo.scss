@@ -1,0 +1,58 @@
+// color variable declaration
+$header-color: orange;
+$main-color: lightblue;
+$footer-color: pink;
+$p-fontsize: 1.8em;
+
+/* browser reset code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: $header-color;
+}
+//nav styling
+nav{
+    margin-top: 15px;
+    
+    ul{
+        list-style-type: none;
+        
+        li{
+            display: inline-block;
+            margin: 0 15px;
+
+            a{
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                transition: .4sec;
+                border-radius:  5px;
+            }
+            a:hover{
+                    background-color: black;
+            }          
+        }
+    }
+}
+main{
+    background-color: $main-color;
+}
+.about p{
+    font-size: $p-fontsize;
+}
+footer{
+    background-color: $footer-color;
+}
+
+
+
+
+
+
+
+
+
